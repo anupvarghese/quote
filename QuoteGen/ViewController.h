@@ -10,4 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic,strong) NSArray *myQuotes;
+@property (nonatomic,strong) NSMutableArray *movieQuotes;
+
+    // Outlet
+@property (nonatomic,strong) IBOutlet UITextView *txtView;
+
+- (IBAction)quoteButtonTapped:(id)sender;
+
 @end
